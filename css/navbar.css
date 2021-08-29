@@ -1,0 +1,121 @@
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1px 10%;
+    height:10vh;
+    background-color:#242524;
+    flex-wrap: wrap;
+    flex:1 1 400px;
+}
+
+.navbarTitle{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:#ededed;
+}
+
+.navbarTitle span{
+    font-size:1.4rem;
+    color:rgb(219, 55, 55);
+}
+
+.navbarLinks{
+    display:flex;
+    list-style:none;
+}
+
+.active{
+    background-color:rgb(60, 60, 214);
+    
+}
+
+.navbarLinks li a{
+    margin:0 5px;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ededed;
+
+}
+
+.navbarLinks a:hover{
+    background-color:rgb(60, 60, 214);
+}
+
+@media only screen and (max-width: 860px) {
+    .navbarLinks li a{
+        font-size: 0.6rem;    
+    }
+
+    .navbarTitle{
+        font-size:1rem;
+    }
+    .navbarTitle span{
+        font-size: 1.2rem;
+        }
+  }
+
+  @media only screen and (max-width: 740px) {
+
+    header{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbarTitle{
+        padding-bottom: 20px;
+    }
+    .navbarLinks li a{
+        margin:0 5px;
+        padding: 8px 12px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    .navbarLinks{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .navbarTitle{
+        font-size:1rem;
+    }
+    .navbarTitle span{
+        font-size: 1.2rem;
+        }
+    .navbarLinks li {
+        margin:5px;
+        padding: 5px 10px;
+    }
+    .navbarLinks li a{
+        font-size: 0.8rem;
+        margin:100px;
+        padding: 8px 10px;
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+
+     .navbarTitle{
+        font-size:0.8rem;
+    }
+    .navbarTitle span{
+        font-size: 1rem;
+        }
+    .navbarLinks li a{
+        font-size: 0.6rem;
+
+    }
+  }
+
+
+

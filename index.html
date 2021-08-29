@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+</head>
+<body>
+    <header>
+        <div class="navbarTitle">
+            <h3><span>h</span>ealth <span>c</span>are</h3>
+        </div>
+        <nav>
+            <ul class="navbarLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="./components/about.html">About Us</a></li>
+                <li><a href="./components/service.html">Service</a></li>
+                <li><a href="./components/doctors.html">Doctors</a></li>
+                <li><a href="./components/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="slider">
+        <figure>
+            <img src="./images/slider/1.jpg" class="sliderImgs"/>
+            <img src="./images/slider/2.jpg" class="sliderImgs"/>
+            <img src="./images/slider/3.jpg" class="sliderImgs"/>
+            <img src="./images/slider/4.jpg" class="sliderImgs"/>
+            <img src="./images/slider/1.jpg" class="sliderImgs"/>
+        </figure>
+    </section>
+
+        <section class = description>
+            <h1>Importance of Health</h1>
+            <span>.....</span>
+            <div class="row">
+                <div class="col1">
+                    <img src="images/svg/Healthy.svg"/>
+                </div>
+                <div class="col2">
+                    <p>Health is a positive concept emphasizing social and personal resources, as well as physical capacities.” This means that health is a resource to support an individual's function in wider society, rather than an end in itself.<br><br> A healthful lifestyle provides the means to lead a full life with meaning and purpose. Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and long-term illnesses. Feeling good about yourself and taking care of your health are important for your self-esteem and self-image. Maintain a healthy lifestyle by doing what is right for your body.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class='appointment'>
+            <div class="formBox">
+                <h2>Make a new appointment</h2>
+                <form class="form">
+                    <div class="twoColumns">
+                        <fieldset>
+                            <label class="formLabel" for="firstName">First Name</label>
+                            <input id="firstName" class="formInput" type="text" name="firstName" placeholder="Your first name" >
+                        </fieldset>
+                        <fieldset>
+                          <label class="formLabel" for="lastName">Last Name</label>
+                          <input id="lastName" class="formInput" type="text" name="lastName" placeholder="Your last name" >
+                        </fieldset>
+                    </div>
+        
+                    <fieldset>
+                      <label class="formLabel" for="mobile">Mobile Number</label>
+                      <input id="mobile" class="formInput" type="mobile" name="mobile" placeholder="+94 11 1234567" >
+                    </fieldset>
+          
+                    <fieldset>
+                      <label class="formLabel" for="homeAddress">Home Address</label>
+                      <input id="homeAddress" class="formInput" type="text" name="homeAddress" placeholder="Enter home address" >
+                    </fieldset>
+
+                    <fieldset>
+                    <div class="radioGroup">
+                        <label class="formLabel">Gender : </label>
+                        <label class="formLabel">Male
+                            <input type="radio" name="radio">
+                        </label>
+                        <label class="formLabel">Female
+                            <input type="radio" name="radio">
+                        </label>
+                    </div>
+                    </fieldset>
+                    <fieldset>
+                        <label for="appointmentDate">Date Of Birth : </label>
+                        <input type="date" name="appointmentDate" id="appointmentDate">
+                    </fieldset>
+                    <fieldset>
+                        <div class="selectGroup">
+                            <label for="doctorName">Name of the doctor needs to be channeled : </label>
+                            <select id="doctorName" name="doctorName">
+                                <option value="1">Dr Amila Rathnapala</option>
+                                <option value="2">Dr Duminda Yasaratne</option>
+                                <option value="3">Dr Hashan Amarathunga</option>
+                                <option value="4">Dr Chandani Udagedara</option>
+                                <option value="5">Dr Selvaratnam</option>
+                                <option value="6">Dr Kosala Somarathne</option>
+                                <option value="7">Dr Udaya Kalubovila</option>
+                                <option value="8">Dr Mrs Mancl Rathnayake</option>
+                                <option value="9">Prof Ananda Wijekoon</option>
+                                <option value="10">Dr Nimal Katugaha</option>
+                                <option value="11">Dr M H T L Mahanama</option>
+                                <option value="12">Dr Aruna Herath</option>
+                                <option value="13">Dr Mrs Thilanka Seneviratne</option>
+                                <option value="14">Dr Jagath Munasinghe</option>
+                                <option value="15">Dr Sisira Ranaraja</option>
+                                <option value="16">Dr Harsha Perera</option>
+                                <option value="17">Dr Dhammika Wijesundara</option>
+                                <option value="18">Prof Chandrika Jayasinghe</option>
+                                <option value="19">Dr Gihan Abewardena</option>
+                                <option value="20">Dr Vipula Wijesiri</option>
+                                <option value="21">Dr Jagath Wasanthathilake</option>
+                                <option value="22">Dr Kanchana Edirisinghe</option>                                
+                            </select>
+                        </div>
+                    </fieldset>
+                    <button class="formBtn" type="">SUBMIT</button>
+                  </form>
+            </div>
+        </section>
+        <footer>
+            <h4>2021</h4>
+        </footer>
+</body>
+</html>
